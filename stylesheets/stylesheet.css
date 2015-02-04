@@ -1,48 +1,53 @@
-.title{color:#448524;font-family:'ººÒÇÖÐÔ²¼ò';font-size:40px;margin-top:150px}
-.container{margin-top:100px}
-.myButton {
-			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #448524), color-stop(1, #336e16));
-			background:-moz-linear-gradient(top, #448524 5%, #336e16 100%);
-			background:-webkit-linear-gradient(top, #448524 5%, #336e16 100%);
-			background:-o-linear-gradient(top, #448524 5%, #336e16 100%);
-			background:-ms-linear-gradient(top, #448524 5%, #336e16 100%);
-			background:linear-gradient(to bottom, #448524 5%, #336e16 100%);
-			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#448524', endColorstr='#336e16',GradientType=0);
-			background-color:#448524;
-			-moz-border-radius:3px;
-			-webkit-border-radius:3px;
-			border-radius:3px;
-			display:inline-block;
-			cursor:pointer;
-			color:#ffffff;
-			font-family:ººÒÇÖÐÔ²¼ò;
-			font-size:16px;
-			padding:6px 84px;
-			text-decoration:none;
-		}
-		.myButton:hover {
-			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #336e16), color-stop(1, #448524));
-			background:-moz-linear-gradient(top, #336e16 5%, #448524 100%);
-			background:-webkit-linear-gradient(top, #336e16 5%, #448524 100%);
-			background:-o-linear-gradient(top, #336e16 5%, #448524 100%);
-			background:-ms-linear-gradient(top, #336e16 5%, #448524 100%);
-			background:linear-gradient(to bottom, #336e16 5%, #448524 100%);
-			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#336e16', endColorstr='#448524',GradientType=0);
-			background-color:#336e16;
-		}
-.myButton:active {position:relative;top:1px;}	
-.login_body{background:url(https://raw.githubusercontent.com/EchoWht/w.github.com/master/imgs/bg.jpg) no-repeat center 0;background-color:#3fbfee;}	
-.bgimg{width:100% ;height:100%;position:absolute;top:0;left:0;right:100;bottom:500;z-index:-1;}
-.tblogin{background-color:#f2f1f6;border-radius:5px;padding: 30px 50px 50px 50px;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; position:relative; margin-top:70px}		
-.tblogintdtitle{padding-bottom:20px;color:#448524;font-weight:bold}
-.divuser{height:30px;width:200px;border:1px solid #c0c0c0;border-radius:5px;}
-.divuserimg{height:30px;width:40px;background-color:#c0c0c0;}
-.imguser{padding: 5px 5px 5px 10px;width:20px }
-.divuserinput{position:absolute;margin-top:-30px;margin-left:40px}
-.inputuser{border:0px;height:28px;width:160px;border-radius:0px 5px 5px 0px;}	
-.divpw{height:30px;width:200px;border:1px solid #c0c0c0;border-radius:5px;margin-top:20px}
-.divpwimg{height:30px;width:40px;3px solid red;background-color:#c0c0c0;}
-.imgpw{padding: 5px 5px 5px 10px ;width:20px}
-.divpwinput{position:absolute;margin-top:-30px;margin-left:40px}
-.inputpw{border:0px;height:28px;width:160px;border-radius:0px 5px 5px 0px}
-.divbtlogin{margin-top:20px}
+.body{text-align:center;background:url(https://raw.githubusercontent.com/EchoWht/home/master/bg1.jpg);}
+.content{width:980px;}
+.fl{float:left}
+.fr{float:right}
+a{text-decoration:none;}
+.clear{width: 0;height: 0;clear: both;overflow: hidden;}
+.title{color:#663333;font-family:Comic Sans MS;font-weight:bold;font-size:30px}
+/*header*/
+#header .content{height:150px;background-image: -webkit-gradient(linear, left top, left bottom,from(#003300), to(#3D5C3D));/*Comic Sans MS漂亮的渐变色彩*/}
+#header a{color:#FFFFFF;background-color:#CCCC99;padding:5px 20px;font-family:Comic Sans MS}
+#header a:hover{color:#FFFFFF;background-color:#cccc66;padding:5px 40px;font-family:Tahoma}
+.mylink{margin-top:100px;margin-left:150px}
+.ml5{margin-left:-7px}
+.brl{border-radius:10px 0px 0px 10px}
+.brr{border-radius:0px 10px 10px 0px}
+.touxiang{width:100px;border-radius:10px;margin:25px}
+.name{font-family:impact;color:#FFFFFF;font-size:50px;padding-top:40px}
+
+
+/*container*/
+#container .content{margin-top:0px;border:2px solid #006633;height:750px;width:976px}
+.content-txt{height:300px;margin-top:50px;margin-left:50px}
+.work{border:1px solid #CC9966;text-align:center;background-color:#FFFFCC	;}
+.table-title{font-weight:bold;color:#663333;background-color:#999966}
+.work td{border:1px solid #CC9966;width:80px;height:30px}
+
+.sudoku{margin-top:50px;font-size:20px;font-family:Comic Sans MS;font-weight:bold}
+.sudoku a{color:#993300}
+.sudoku a:hover{color:#336666}
+.wh50{width:140px;height:140px}
+
+.mt50{margin-top:50px}
+.sudoku1{background-color:#FFFFCC;}
+.sudoku2{background-color:#CCFFFF}
+.sudoku3{background-color:#FFCCCC}
+.sudoku4{background-color:#ccccff}
+.sudoku5{background-color:#ccff66}
+.sudoku6{background-color:#0099cc}
+.sudoku7{background-color:#ff99cc}
+.sudoku8{background-color:#99cccc}
+.sudoku9{background-color:#99cc00}
+
+.gallery{margin-top:50px;margin-right:50px}
+
+.gallery-img{border:2px dotted #339999;border-radius:10px;}
+.c-right-img{width:300px;padding:5px;border-radius:10px;}
+
+
+.tip{width:310px;height:170px ;border:2px dotted #339999;border-radius:10px;margin-top:48px}
+.tip-title{font-family:Comic Sans MS;color:#663333;font-weight:bold;padding:10px}
+/*footer*/
+#footer .content{margin-top:0px;height:100px;background-image: -webkit-gradient(linear, left top, left bottom,from(#006633), to(#3D5C3D));}
+.email{font-size:16px;color:#FFFFFF;padding-top:50px;font-weight:bold}
