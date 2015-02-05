@@ -48,6 +48,8 @@ a{text-decoration:none;}
 
 .tip{width:90%;height:170px ;border:2px dotted #339999;border-radius:10px;margin-top:48px}
 .tip-title{font-family:Comic Sans MS;color:#663333;font-weight:bold;padding:10px}
+
+.next{font-family:Comic Sans MS;color:#663333;font-weight:bold;padding:5px 20px;background-color:#CCCC99;margin-top:10px;border-radius:10px}
 /*footer*/
 #footer .content{margin-top:0px;background-image: -webkit-gradient(linear, left top, left bottom,from(#006633), to(#3D5C3D));}
 .email{font-size:16px;color:#FFFFFF;padding-top:10px;font-weight:bold}
