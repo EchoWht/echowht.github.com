@@ -9,7 +9,7 @@ a{text-decoration:none;}
 #header .content{height:150px;background-image: -webkit-gradient(linear, left top, left bottom,from(#003300), to(#3D5C3D));/*Comic Sans MS漂亮的渐变色彩*/}
 #header a{color:#FFFFFF;background-color:#CCCC99;padding:5px 20px;font-family:Comic Sans MS}
 #header a:hover{color:#FFFFFF;background-color:#cccc66;padding:5px 40px;font-family:Tahoma}
-.weather{border-radius:5px;}
+.weather{border-radius:5px;padding:5px;}
 .mylink{margin-top:70px;margin-left:150px}
 .ml5{margin-left:-7px}
 .brl{border-radius:10px 0px 0px 10px}
